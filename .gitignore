@@ -1,0 +1,166 @@
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets/
+credentials.json
+service-account*.json
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==========================================
+# Node.js / JavaScript / TypeScript
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm/
+.eslintcache
+*.tsbuildinfo
+
+# ==========================================
+# Next.js / React
+# ==========================================
+.next/
+out/
+build/
+dist/
+.vercel/
+.turbo/
+coverage/
+
+# ==========================================
+# AI / ML / Data Science
+# ==========================================
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+wandb/
+mlruns/
+lightning_logs/
+outputs/
+runs/
+data/raw/
+data/processed/
+datasets/
+vector_store/
+chroma_db/
+faiss_index/
+
+# ==========================================
+# Databases and local storage
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+logs/
+*.log
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# IDEs and editors
+# ==========================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
+
+# Keep shared VS Code recommendations
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# ==========================================
+# Testing and coverage
+# ==========================================
+.nyc_output/
+test-results/
+playwright-report/
+.pytest_cache/
+coverage.xml
+
+# ==========================================
+# Docker / local development overrides
+# ==========================================
+.env.docker
+docker-compose.override.yml
+
+# ==========================================
+# Operating systems
+# ==========================================
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ==========================================
+# Build artifacts
+# ==========================================
+*.class
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# ==========================================
+# Local configuration
+# ==========================================
+.local
